@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title data-locales="extName"></title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/popup.min.css">
+  </head>
+  <body>
+    <div class="db-info">
+      <div class="db-info-text">
+        <h1>Fake Shop Detector</h1>
+        <p>
+          <strong class="hidden" data-locales="disableText"></strong>
+        </p>
+
+        <p class="hidden" data-db-info="disabled">
+          <strong data-locales="popupInfoDisabled"></strong>
+          <br>
+
+          <span>
+            <br>
+            <br>
+            <strong id="popupInfoIgnoreName"></strong>
+            <br>
+            <i id="popupInfoIgnoreDescription"></i>
+          </span>
+          <br>
+          <span id="popupInfoIgnoreLink"></span>
+        </p>
+
+        <p class="hidden" data-db-info="fraud">
+        <p class="hidden" data-db-info="fraud">
+          <strong data-locales="popupInfoFraud"></strong>
+          <br>
+          <span id="popupInfoFraudLink"></span>
+          <span>
+            <br>
+            <br>
+            <strong id="popupInfoFraudName"></strong>
+            <br>
+            <i id="popupInfoFraudDescription"></i>
+          </span>
+        </p>
+
+        <p class="hidden" data-db-info="maybe-fraud">
+          <strong data-locales="popupInfoMaybeFraud"></strong>
+        </p>
+
+        <p class="hidden" data-db-info="not-analyzed">
+          <strong data-locales="popupInfoNotAnalyzed"></strong>
+        </p>
+
+        <div class="hidden" data-db-info="not-checked">
+          <p>
+            <strong data-locales="popupInfoNotChecked"></strong>
+          </p>
+        </div>
+
+        <p class="hidden" data-db-info="very-high">
+          <strong data-locales="popupInfoVeryHighHeader"></strong><br>
+          <i data-locales="popupInfoVeryHigh"></i>
+          <a class="read-more" data-locales="popupInfoReadMoreNotChecked" target="_blank" href="https://www.watchlist-internet.at/fsd/fakeshops/"></a>
+        </p>
+
+        <p class="hidden" data-db-info="high">
+          <strong data-locales="popupInfoHighHeader"></strong><br>
+          <i data-locales="popupInfoHigh"></i>
+          <a class="read-more" data-locales="popupInfoReadMoreNotChecked" target="_blank" href="https://www.watchlist-internet.at/fsd/fakeshops/"></a>
+        </p>
+        <p class="hidden" data-db-info="above-avg">
+          <strong data-locales="popupInfoAboveAvg"></strong>
+          <a class="read-more" data-locales="popupInfoReadMoreNotChecked" target="_blank" href="https://www.watchlist-internet.at/fsd/fakeshops/"></a>
+        </p>
+        <p class="hidden" data-db-info="below-avg">
+          <strong data-locales="popupInfoBelowAvg"></strong>
+          <a class="read-more" data-locales="popupInfoReadMoreNotChecked" target="_blank" href="https://www.watchlist-internet.at/fsd/fakeshops/"></a>
+        </p>
+        <p class="hidden" data-db-info="low">
+          <strong data-locales="popupInfoLowHeader"></strong><br>
+          <i data-locales="popupInfoLow"></i>
+        </p>
+        <p class="hidden" data-db-info="very-low">
+          <strong data-locales="popupInfoVeryLowHeader"></strong><br>
+          <i data-locales="popupInfoVeryLow"></i>
+        </p>
+        <p data-db-info="working">
+          <strong data-locales="popupInfoWorking"></strong>
+          <a class="read-more" data-locales="popupInfoReadMoreNotChecked" target="_blank" href="https://www.watchlist-internet.at/fsd/fakeshops/"></a>
+        </p>
+        <p class="hidden" data-db-info="failed">
+          <strong data-locales="popupInfoFailed"></strong>
+          <a class="read-more" data-locales="popupInfoReadMoreSuccessful" target="_blank" href="https://www.watchlist-internet.at/fsd/sicher-einkaufen/"></a>
+        </p>
+
+        <p class="hidden" data-db-info="successful">
+          <strong data-locales="popupInfoSuccessful"></strong>
+          <span data-db-info="successful-trustmark" class="hidden">
+        </span>
+          <span>
+            <br>
+            <br>
+            <strong id="popupInfoSuccessfulName"></strong>
+            <br>
+            <i id="popupInfoSuccesfulDescription"></i>
+          </span>
+          <br>
+          <span id="popupInfoSuccesfulLink"></span>
+        </p>
+
+        <p class="hidden" data-db-info data-locales="popupInfo"></p>
+      </div>
+      <div class="indicator-icon" data-indicator-icon></div>
+    </div>
+
+    <p class="hidden" data-db-info="fraud">
+      <a class="read-more" data-locales="popupInfoReadMoreFraud" target="_blank" href="https://www.watchlist-internet.at/liste-online-shops/"></a>
+    </p>
+
+    <p class="hidden" data-db-info="very-high">
+      <a class="read-more" data-locales="popupInfoReadMoreVeryHigh" target="_blank" href="https://www.fakeshop.at/selbstcheck/"></a>
+    </p>
+    <p class="hidden" data-db-info="high">
+      <span data-locales="popupInfoReadMoreHigh"></span>
+      <a class="read-more" data-locales="popupInfoReadMoreHighLink" target="_blank" href="https://www.fakeshop.at/selbstcheck/"></a>
+    </p>
+    <p class="hidden" data-db-info="above-avg">
+      <span data-locales="popupInfoReadMoreSelfCheck"></span>
+    </p>
+    <p class="hidden" data-db-info="below-avg">
+      <span data-locales="popupInfoReadMoreSelfCheck"></span>
+    </p>
+    <p class="hidden" data-db-info="low">
+      <span data-locales="popupInfoReadMoreSelfCheck"></span>
+    </p>
+    <p class="hidden" data-db-info="very-low">
+      <span data-locales="popupInfoReadMoreSelfCheck"></span>
+    </p>
+
+    <p class="hidden" data-db-info="not-analyzed">
+      <a class="read-more" data-locales="popupInfoReadMoreNotAnalyzed" href="#"></a>
+    </p>
+
+    <p class="hidden" data-db-info="not-checked">
+      <a class="read-more" data-locales="popupInfoReadMoreNotChecked" target="_blank" href="https://www.watchlist-internet.at/fsd/fakeshops/"></a>
+    </p>
+
+    <p class="hidden" data-db-info="successful">
+      <span data-locales="popupInfoReadMoreSelfCheck"></span>
+    </p>
+    <p class="hidden" data-db-info="disabled-slider">
+      <span data-locales="popupInfoReadMoreSelfCheck"></span>
+    </p>
+    <p>
+
+      <span data-locales="disableInfo"></span>
+      <label class="switch">
+        <input id="disableSwitch" type="checkbox" checked="checked">
+        <span class="slider round"></span>
+      </label>
+    </p>
+
+    <div class="delimiter feedback">
+      <p class="last" data-locales="popupFeedback"></p>
+      <a class="hidden" data-locales="activatePlugin" href="#"></a>
+      <a class="hidden" data-locales="deactivatePlugin" href="#"></a>
+    </div>
+
+    <div class="delimiter">
+      <h2 data-locales="popupInfoDescriptionTitle"></h2>
+<!--      <ul class="last">-->
+<!--        <li data-locales="popupInfoDescriptionList1"></li>-->
+<!--        <li data-locales="popupInfoDescriptionList2"></li>-->
+<!--        <li data-locales="popupInfoDescriptionList3"></li>-->
+<!--        <li data-locales="popupInfoDescriptionList4"></li>-->
+<!--      </ul>-->
+    </div>
+
+    <script defer src="../js/jquery-3.4.1.min.js"></script>
+    <script defer src="../js/popup.min.js"></script>
+  </body>
+</html>

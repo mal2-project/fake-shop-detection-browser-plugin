@@ -1,0 +1,119 @@
+{
+  "extName": {
+    "message": "Fake-Shop-Detektor"
+  },
+  "extDescription": {
+    "message": "Analyses webpages to find out if an online shop is fraudulent."
+  },
+  "popupInfoDisabled": {
+    "message": "Diese Internetseite wurde nicht überprüft."
+  },
+  "popupInfoFraud": {
+    "message": "Vorsicht: Fake-Shop"
+  },
+  "popupInfoReadMoreFraud": {
+    "message": "Liste betrügerischer Online-Shops"
+  },
+  "popupInfoReadMoreVeryHigh": {
+    "message": "So erkennen Sie betrügerische Onlineshops."
+  },
+  "popupInfoReadMoreHigh": {
+    "message": "Handelt es sich um einen Onlineshop, empfehlen wir Ihnen deshalb den"
+  },
+  "popupInfoReadMoreHighLink": {
+    "message": "Selbstcheck in drei Schritten."
+  },
+  "popupInfoMaybeFraud": {
+    "message": "Dieser Shop wurde automatisch überprüft.\nEinige Elemente des Web-Shops weisen betrügerische Merkmale auf."
+  },
+  "popupInfoNotAnalyzed": {
+    "message": "Dieser Shop kann von uns nicht analysiert werden.\nÜberprüfen Sie ihn nach den folgenden Kriterien,\nbevor Sie sich entscheiden hier einzukaufen"
+  },
+  "popupInfoReadMoreNotAnalyzed": {
+    "message": "Kriterien für einen sicheren Shop"
+  },
+  "popupInfoNotChecked": {
+    "message": "Dieser Shop wurde automatisch überprüft.\nWir haben keine Hinweise auf Betrug gefunden,\nkönnen aber keine Garantie abgeben."
+  },
+  "popupInfoReadMoreNotChecked": {
+    "message": "<a href=\"https://www.watchlist-internet.at/fsd/fakeshops/\" target=\"_blank\">Wie erkenne ich einen betrügerischen Shop?</a>"
+  },
+  "popupInfoSuccessful": {
+    "message": "Kein Fake-Shop Risiko"
+  },
+  "popupInfoSuccessfulTrustmark": {
+    "message": "und durch ein Gütezeichen verifiziert"
+  },
+  "popupInfoReadMoreSuccessful": {
+    "message": "Sicher einkaufen im Internet"
+  },
+  "popupInfo": {
+    "message": "Dieser Shop kann von uns nicht analysiert werden.\nÜberprüfen Sie ihn nach den <a href=\"#\">folgenden Kriterien</a>,\nbevor Sie sich entscheiden hier einzukaufen."
+  },
+  "popupFeedback": {
+    "message": "Haben Sie einen Fehler gefunden oder wollen Sie uns etwas mitteilen?\n<a class=\"btn\" href=\"https://www.fakeshop.at/kontakt/\" target=\"_blank\">Feedback</a>"
+  },
+  "popupInfoDescriptionTitle": {
+    "message": "<a href=\"https://www.fakeshop.at/ueber-das-plugin\" target=\"_blank\">Info zum Fake-Shop Detector</a>"
+  },
+  "popupInfoDescriptionList1": {
+    "message": "Liste betrügerischer Online-Shops<br>der Watchlist"
+  },
+  "popupInfoDescriptionList2": {
+    "message": "Zertifizierte Shops mehrerer Gütezeichen<br>(min. österreichisches E-Commerce-Gütezeichen, Trustmark Austria und EHI Siegel)"
+  },
+  "popupInfoDescriptionList3": {
+    "message": "Datenbank aus bestehenden<br>MAL2-Überprüfungen"
+  },
+  "popupInfoDescriptionList4": {
+    "message": "Echtzeit-Überprüfung durch<br>MAL2-Tool"
+  },
+  "activatePlugin": {
+    "message": "Aktivieren"
+  },
+  "deactivatePlugin": {
+    "message": "Für 15 Min. deaktivieren"
+  },
+    "disableInfo": {
+    "message": "Deaktivieren des Plugins für 15 Min.: "
+  },
+    "disableText": {
+    "message": "Das Plugin ist vorübergehend deaktiviert"
+  },
+  "popupInfoVeryHigh": {
+    "message": "Diese Internetseite wurde automatisch überprüft. Zahlreiche Elemente der Seite weisen betrügerische Merkmale auf."
+  },
+  "popupInfoVeryHighHeader": {
+    "message": "Fake-Shop: Sehr hoch"
+  },
+  "popupInfoHigh": {
+    "message": "Diese Internetseite wurde automatisch überprüft. Einige Elemente der Seite weisen auf einen betrügerischen Web-Shop hin."
+  },
+  "popupInfoAboveAvg": {
+    "message": "Diese Internetseite wurde automatisch überprüft. Das ermittelte Fake-Shop Risiko ist mittel - doch eine zuverlässige Einschätzung ist nicht möglich."
+  },
+  "popupInfoBelowAvg": {
+    "message": "Diese Internetseite wurde automatisch überprüft. Das ermittelte Fake-Shop Risiko ist mittel - doch eine zuverlässige Einschätzung ist nicht möglich."
+  },
+  "popupInfoReadMoreSelfCheck": {
+    "message": "Handelt es sich um einen Onlineshop, der Ihnen unbekannt ist? <a href=\"https://www.fakeshop.at/selbstcheck/\" target=\"_blank\">Überprüfen Sie in 3 Schritten</a>, ob das Einkaufen hier sicher ist."
+  },
+  "popupInfoLow": {
+    "message": "Diese Internetseite wurde automatisch überprüft. Das ermittelte Fake-Shop Risiko ist niedrig - doch eine zuverlässige Einschätzung."
+  },
+  "popupInfoLowHeader": {
+    "message": "Eine zuverlässige Einschätzung ist nicht möglich."
+  },
+  "popupInfoVeryLowHeader": {
+    "message": "Kein Fake-Shop Risiko"
+  },
+  "popupInfoVeryLow": {
+    "message": "Diese Internetseite wurde automatisch überprüft."
+  },
+  "popupInfoWorking": {
+    "message": "Diese Seite wird aktuell auf mögliche Fake-Shop Merkmale überprüft."
+  },
+  "popupInfoFailed": {
+    "message": "Diese Internetseite konnte nicht automatisch überprüft werden."
+  }
+}

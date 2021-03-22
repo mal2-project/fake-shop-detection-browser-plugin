@@ -1,0 +1,47 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "default_locale": "de",
+    "name": "__MSG_extName__",
+    "description": "__MSG_extDescription__",
+   // "update_url": "https://db.malzwei.at/browser_plugin/updates.xml", // Only for Chrome??
+    "permissions": [
+        "tabs",
+        "storage",
+        "unlimitedStorage",
+        "*://mal2.ait.ac.at/*"
+//        "activeTab",
+//        "webRequest",
+//        "webRequestBlocking",
+//        "<all_urls>"
+    ],
+    "icons": {
+      "16": "img/icon_16.png",
+      "48": "img/icon_48.png",
+      "128": "img/icon_128.png"
+    },
+    "browser_action": {
+        "default_icon": {
+          "32": "img/action/action-disabled.png"
+        },
+        "default_title": "__MSG_extName__",
+        "default_popup": "popup/index.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": [
+              "js/jquery-3.4.1.min.js",
+              "js/content.min.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "background": {
+        "scripts": [
+          "js/jquery-3.4.1.min.js", "js/background.min.js", "js/popup.min.js", "js/options.min.js"
+        ],
+        "persistent": true
+    },
+    "options_page": "options/options.html"
+}
